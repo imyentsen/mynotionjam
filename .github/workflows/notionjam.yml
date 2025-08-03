@@ -29,9 +29,6 @@ jobs:
         with:
           NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
           NOTION_DATABASE: https://www.notion.so/aaansiiin/cdce93f39d764be383d24b05e0d250e8?v=1504e3e2c10a8031b521000c5cea3ad0
-          FILTER_PROP: Status
-          FILTER_VALUES: Published
-          CONVERT_PROP_CASE: snake
           ARTICLE_PATH: content/posts/{title}/README.md
           ASSETS_PATH: ./
           PARALLEL_PAGES: 25
